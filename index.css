@@ -21,7 +21,7 @@ nav {
 
 .logo {
     column-count: 15;
-    background-image: url(/images/lifelogo3.svg);
+    background-image: url(images/lifelogo3.svg);
     background-position: center;
     background-size: 15vh;
     background-repeat: no-repeat;
@@ -70,7 +70,7 @@ nav {
   .welcomeSection {
     width: 50vw;
     display: flex;
-    background-image: url(/images/lifelogo7.svg);
+    background-image: url(images/lifelogo7.svg);
     background-position: center;    
     background-repeat: no-repeat;
     filter: drop-shadow(-46px 39px 35px #647f91);
