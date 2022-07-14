@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Kannada&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar Started */
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background: #83BAC9;
+    position: fixed;
+    width: 100vw;
+    z-index: 99;
+}
+
+.logo {
+    column-count: 15;
+    background-image: url(/images/lifelogo3.svg);
+    background-position: center;
+    background-size: 15vh;
+    background-repeat: no-repeat;
+    height: 12vh;
+    z-index: 1;
+}
+
+.navLinks {
+    font-family: 'Tiro Kannada', cursive;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .navLinks:hover {
+    color:rgb(225, 238, 178);
+    border-bottom: 1px solid rgb(234, 234, 238);
+  }
+
+  .homeContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 100vh;
+    /*background: rgb(228,228,236);
+    background: linear-gradient(90deg, rgba(228,228,236,1) 0%, rgba(224,240,69,1) 60%, rgba(208,215,215,1) 100%);
+  */
+    background-color: #b7d7e2;
+}
+
+  .imageSection {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 4rem;
+    
+  }
+
+  h3 {
+    text-align: left;
+  }
+  .welcomeSection {
+    width: 50vw;
+    display: flex;
+    background-image: url(/images/lifelogo7.svg);
+    background-position: center;    
+    background-repeat: no-repeat;
+    filter: drop-shadow(-46px 39px 35px #647f91);
+  }
+
+  /*.welcome {
+    background: linear-gradient(103deg, #B5DD47 0%, #B8CD53 16%, #9BDDD7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }*/
+
+  section {
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    background-color: #647f91;
+    
+  }
+
+  .container {
+    width: 100%;
+    min-width: 1160px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.5 rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .left img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    padding-left: 20px;
+  }
+
+  .right > * {
+    margin-bottom: 1.1rem;
+    color: #fff;
+  }
+
+  .right h1 {
+    font-size: 4rem;
+    font-weight: 800;
+  }
+
+  .right h3 {
+    font-size: 2.9rem;
+  }
+
+  .right p {
+    text-align: justify;
+    padding-right: 50px;
+    line-height: 3rem;
+    font-size: 2.5rem;
+    
+  }
+
+  .btn {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 25px;
+    border: 2px solid red;
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+  }
